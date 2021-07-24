@@ -1,45 +1,45 @@
-# new
+# Project Title
   
 ## Description
   
-file.
+This is my description.
 
 ## Table of Contents
 
-- [Title](#new)
-- [Description](##Description)
-  * [Important Information](##Important Information)
-  * [Installation Instructions](###Installation Instructions)
-  * [Usage Information](###Usage Information)
-  * [Contribution Guidelines](###Contribution Guidelines)
-  * [Test Instructions](###Test Instructions)
-- [Author](##Author)
-- [Author](##License)
+- [Title](#Project-Title)
+- [Description](#Description)
+  * [Important Information](#Important-Information)
+  * [Installation Instructions](#Installation-Instructions)
+  * [Usage Information](#Usage-Information)
+  * [Contribution Guidelines](#Contribution-Guidelines)
+  * [Test Instructions](#Test-Instructions)
+- [Author](#Author)
+- [License](#License)
 
 ## Important Information
 
 ### Installation Instructions
 
-th
+non
 
 ### Usage Information
 
-is 
+nope
 
 ### Contribution Guidelines
 
-
+nope
 
 ### Test Instructions
 
-
+nope
 
 ## Author
 
-* 
-* https://github.com/
-* 
+* Nicholas Cougan
+* https://github.com/ncougs
+* ncougan@gmail.com
 
 ## License
 
-This project is licensed under the Apache License
+This project is licensed under the MIT License
