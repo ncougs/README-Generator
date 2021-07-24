@@ -55,5 +55,5 @@ function init() {
         console.log(`Oops, something went wrong. Please start again.`);
     });}
 
-// Function call to initialize app
+// Function call to initialize the app
 init();

@@ -1,30 +1,30 @@
-# new
+# wow-this-is-really-it
   
 ## Description
   
-file.
+I cant belive its finally happening.
 
 ## Table of Contents
 
-- [Title](#new)
-- [Description](##Description)
-  * [Important Information](##Important Information)
-  * [Installation Instructions](###Installation Instructions)
-  * [Usage Information](###Usage Information)
-  * [Contribution Guidelines](###Contribution Guidelines)
-  * [Test Instructions](###Test Instructions)
-- [Author](##Author)
-- [Author](##License)
+- [Title](#wow-this-is-really-it)
+- [Description](#description)
+  * [Important Information](#important-information)
+  * [Installation Instructions](#installation-instructions)
+  * [Usage Information](#usage-information)
+  * [Contribution Guidelines](#contribution-guidelines)
+  * [Test Instructions](#test-instructions)
+- [Author](#author)
+- [License](#license)
 
 ## Important Information
 
 ### Installation Instructions
 
-th
+
 
 ### Usage Information
 
-is 
+
 
 ### Contribution Guidelines
 
@@ -36,9 +36,9 @@ is
 
 ## Author
 
-* 
-* https://github.com/
-* 
+* Nicholas Cougan
+* https://github.com/ncougs
+* ncougan@gmail.com
 
 ## License
 
