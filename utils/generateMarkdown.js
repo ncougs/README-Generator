@@ -15,49 +15,49 @@ function generateMarkdown(data) {
 
 return `# ${data.title}
   
-  ## Description
+## Description
   
-  ${data.description}.
+${data.description}.
 
-  ## Table of Contents
+## Table of Contents
 
-  - [Title](#${data.title})
-  - [Description](##Description)
-    * [Important Information](##Important Information)
-    * [Installation Instructions](###Installation Instructions)
-    * [Usage Information](###Usage Information)
-    * [Contribution Guidelines](###Contribution Guidelines)
-    * [Test Instructions](###Test Instructions)
-  - [Author](##Author)
-  - [Author](##License)
+- [Title](#${data.title})
+- [Description](##Description)
+  * [Important Information](##Important Information)
+  * [Installation Instructions](###Installation Instructions)
+  * [Usage Information](###Usage Information)
+  * [Contribution Guidelines](###Contribution Guidelines)
+  * [Test Instructions](###Test Instructions)
+- [Author](##Author)
+- [Author](##License)
 
-  ## Important Information
-  
-  ### Installation Instructions
-  
-  ${data.installationInstructions}
-  
-  ### Usage Information
-  
-  ${data.usageInformation}
-  
-  ### Contribution Guidelines
-  
-  ${data.contributionGuidelines}
-  
-  ### Test Instructions
-  
-  ${data.testInstructions}
+## Important Information
 
-  ## Author
+### Installation Instructions
 
-  * ${data.name}
-  * https://github.com/${data.username}
-  * ${data.email}
-  
-  ## License
-  
-  This project is licensed under the ${data.license}`
+${data.installationInstructions}
+
+### Usage Information
+
+${data.usageInformation}
+
+### Contribution Guidelines
+
+${data.contributionGuidelines}
+
+### Test Instructions
+
+${data.testInstructions}
+
+## Author
+
+* ${data.name}
+* https://github.com/${data.username}
+* ${data.email}
+
+## License
+
+This project is licensed under the ${data.license}`
 };
 
 module.exports = generateMarkdown;

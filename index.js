@@ -2,6 +2,8 @@
 
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
+const fs = require('fs');
+const outputCyanText = (text) => console.log(`\x1b[36m${text}\x1b[0m`);
 
 // Questions to be asked to the user
 
@@ -25,10 +27,19 @@ const license  = new Question('list', 'license', `What license do you want appli
 
 const questions = [title, description, installationInstructions, usageInformation, contributionGuidelines, testInstructions, name, username, email, license];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write the README file
+const createFile = data => {
+    fs.writeFile('./generated_readme/README.MD', data, function (err) {
+        if (err) {
+            return console.error(err);
+        }
+        else {
+            outputCyanText(`Congratulations! Your professional README.MD file has now been generated within the 'generated_readme' folder.`);
+        };
+    });
+};
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(
       /* Pass your questions in here */
@@ -37,14 +48,11 @@ function init() {
     .then((answers) => {
       // Use user feedback for... whatever!!
       const readME = generateMarkdown(answers);
-      console.log(readME);
+      createFile(readME);
     })
     .catch((error) => {
-      if (error.isTtyError) {
-        // Prompt couldn't be rendered in the current environment
-      } else {
-        // Something else went wrong
-      }
+        console.error(error);
+        console.log(`Oops, something went wrong. Please start again.`);
     });}
 
 // Function call to initialize app
