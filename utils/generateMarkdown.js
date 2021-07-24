@@ -18,8 +18,22 @@ return `# ${data.title}
   ## Description
   
   ${data.description}.
+
+  ## Table of Contents
+
+  - [Title](#${data.title})
+  - [Description](##Description)
+    * [Important Information](##Important Information)
+    * [Installation Instructions](###Installation Instructions)
+    * [Usage Information](###Usage Information)
+    * [Contribution Guidelines](###Contribution Guidelines)
+    * [Test Instructions](###Test Instructions)
+  - [Author](##Author)
+  - [Author](##License)
+
+  ## Important Information
   
-  ### installation Instructions
+  ### Installation Instructions
   
   ${data.installationInstructions}
   
