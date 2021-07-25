@@ -1,40 +1,40 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# new-title
+# my-super-awesome-project
   
 ## Description
   
-Here is my descrition.
+Here is the description of my project.
 
 ## Table of Contents
 
-- [Title](#new-title)
+- [Title](#my-super-awesome-project)
 - [Description](#description)
   * [Important Information](#important-information)
   * [Installation Instructions](#installation-instructions)
   * [Usage Information](#usage-information)
   * [Contribution Guidelines](#contribution-guidelines)
   * [Test Instructions](#test-instructions)
-- [Author](#author)
+- [Questions](#questions)
 - [License](#license)
 
 ## Important Information
 
 ### Installation Instructions
 
-
+This project requires node.js to run
 
 ### Usage Information
 
-
+Here I would include any usage information related to the project
 
 ### Contribution Guidelines
 
-
+Here I would enter any contribution guidelines
 
 ### Test Instructions
 
-
+Test instructions can be found here
 
 ## Questions
 
