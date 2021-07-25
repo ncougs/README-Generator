@@ -12,7 +12,7 @@ This application will allow a user to quickly and easily create a README file by
 - [Application Functionalitity](#application-functionalitity)
   * [Getting started](#getting-started)
   * [Complete questions](#complete-questions)
-  * [Contribution Guidelines](#example-of-complete-file)
+  * [Example of complete File](#example-of-complete-file)
 - [Questions](#questions)
 - [License](#license)
 
