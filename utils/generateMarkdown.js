@@ -1,3 +1,10 @@
+const fs = require('fs');
+const moment = require('moment');
+
+const readLicense = (fileName) => {
+  return fs.readFileSync(`./utils/${fileName}`).toString()
+};
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
@@ -8,9 +15,29 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const renderLicenseSection = (license, name) => {
+  let licenseString;
 
-// TODO: Create a function to generate markdown for README
+  if (license == 'null') {
+    return;
+  };
+
+  if (license=='MIT License') {
+    licenseString = readLicense(`MIT-License.txt`);
+  };
+
+  if (license=='GNU General Public License') {
+    licenseString = readLicense(`GNU-License.txt`);
+  };
+
+  if (license=='Apache License') {
+    licenseString = readLicense(`Apache-License.txt`);
+  };
+
+return licenseString.replace(/<name of author>/gm, name).replace(/<year>/gm, moment().format('YYYY'));
+};
+
+//function to generate markdown for README
 function generateMarkdown(data) {
 
 const title = data.title.split(' ').join('-').toLowerCase();
@@ -59,7 +86,7 @@ ${data.testInstructions}
 
 ## License
 
-This project is licensed under the ${data.license}`
+${renderLicenseSection(data.license, data.name)}`
 };
 
 module.exports = generateMarkdown;

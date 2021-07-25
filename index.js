@@ -42,18 +42,19 @@ const createFile = data => {
 // Function to initialize app
 function init() {
     inquirer.prompt(
-      /* Pass your questions in here */
+        //Ask user the questions
         questions
     )
     .then((answers) => {
-      // Use user feedback for... whatever!!
-      const readME = generateMarkdown(answers);
-      createFile(readME);
+        // Answers are saved in JSON. 
+        const readME = generateMarkdown(answers);
+        createFile(readME);
     })
     .catch((error) => {
+        //Catch errors
         console.error(error);
         console.log(`Oops, something went wrong. Please start again.`);
     });}
 
-// Function call to initialize the app
+// Call the app to start. 
 init();
