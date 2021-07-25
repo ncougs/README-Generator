@@ -83,7 +83,7 @@ ${data.description}.
   * [Usage Information](#usage-information)
   * [Contribution Guidelines](#contribution-guidelines)
   * [Test Instructions](#test-instructions)
-- [Author](#author)
+- [Questions](#questions)
 - [License](#license)
 
 ## Important Information
@@ -104,7 +104,9 @@ ${data.contributionGuidelines}
 
 ${data.testInstructions}
 
-## Author
+## Questions
+
+For any questions, please reach out to the author below: 
 
 * ${data.name}
 * https://github.com/${data.username}
