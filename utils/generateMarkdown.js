@@ -68,7 +68,7 @@ const title = data.title.split(' ').join('-').toLowerCase();
 
 return `${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
-# ${title}
+# ${data.title}
   
 ## Description
   
